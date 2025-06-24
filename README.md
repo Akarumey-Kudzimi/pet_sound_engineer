@@ -23,20 +23,20 @@ pip install -r requirements.txt
 
 ## 📦 Сбор exe-файла
 - Необходимо в интерфейсе auto-py-to-exe добавить ряд библиотек:
-    --hidden-import=tkinter.font
-    --hidden-import=PIL.Image
-    --hidden-import=PIL.ImageTk
-    --hidden-import=logging.handlers
-    --hidden-import=librosa
-    --hidden-import=soundfile
-    --hidden-import=requests
-    --hidden-import=scipy._lib
-    --hidden-import=scipy._lib._util
-    --hidden-import=scipy._cython_utils
-    --hidden-import=scipy._cython_utils._cyutility
-    --collect-submodules=librosa
-    --collect-submodules=soundfile
-    --collect-submodules=scipy
+   - --hidden-import=tkinter.font
+   - --hidden-import=PIL.Image
+   - --hidden-import=PIL.ImageTk
+   - --hidden-import=logging.handlers
+   - --hidden-import=librosa
+   - --hidden-import=soundfile
+   - --hidden-import=requests
+   - --hidden-import=scipy._lib
+   - --hidden-import=scipy._lib._util
+   - --hidden-import=scipy._cython_utils
+   - --hidden-import=scipy._cython_utils._cyutility
+   - --collect-submodules=librosa
+   - --collect-submodules=soundfile
+   - --collect-submodules=scipy
 
 ## 👨‍💻 Автор
 
